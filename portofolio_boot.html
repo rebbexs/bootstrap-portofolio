@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap portofolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style_boot.css">
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="assets/logo2.JPG" alt="logo" class="navbar-logo">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Passions</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Portofolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Recommendations</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">About me</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                      </li>
+                    
+                    </ul>
+                   
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/landscape1.jpg" class="d-block w-100 carousel-image" alt="landscape1">
+              <div class="carousel-image-overlay"></div>
+              <div class="carousel-caption">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/landscape2.jpg" class="d-block w-100 carousel-image" alt="landscape2">
+              <div class="carousel-image-overlay"></div>
+              <div class="carousel-caption">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/landscape3.jpg" class="d-block w-100 carousel-image" alt="landscape3">
+              <div class="carousel-image-overlay"></div>
+              <div class="carousel-caption">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+        <section class="bg-light py-5">
+          <h2 class="text-center mb-5">My Passions</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-5">
+                <h3>Passion 1</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></p>
+              </div>   
+
+              <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2">
+                <h3>Passion 2</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></p>
+              </div>  
+
+              <div class="col-lg-3 col-md-5">
+                <h3>Passion 3</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></p>
+              </div> 
+              
+              <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2">
+                <h3>Passion 4</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container my-5">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Passion #1 Extra
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Passion #2 Extra
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-dark py-5 text-white">
+          <h2 class="text-center mb-5">My Projects</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-5 mt-4"> 
+                <h3>Project 1 <span class="badge bg-success">Google</span></h3>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+              </div>
+              <div class="col-lg-4 col-md-5 offset-md-2 offset-lg-0 mt-4"> 
+                <h3>Project 2 <span class="badge bg-danger">Adobe</span></h3>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+              </div>
+              <div class="col-lg-4 col-md-5 mt-4"> 
+                <h3>Project 3 <span class="badge bg-warning">Amazon</span></h3>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+              </div>
+              <div class="col-lg-4 col-md-5 offset-md-2 offset-lg-0 mt-4"> 
+                <h3>Project 4 <span class="badge bg-primary">Microsoft</span></h3>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-light py-5">
+          <h2 class="text-center mb-5">Recommendations</h2>
+          <div class="container">
+            <div class="row">
+              <div class="card col-lg-5 col-md-5 mb-4">
+                <img src="assets/puppy1.jpg" class="card-img-top" alt="persoana">
+                <div class="card-body">
+                  <h5 class="card-title">James Bond</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#person-1">
+                    Read more
+                  </button>
+                </div>
+              </div>
+              <div class="modal fade" id="person-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">James Bond</h5>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#person-1">
+                        Read more
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
+                      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-lg-5 offset-lg-2 col-md-5 offset-md-2 mb-4">
+                <img src="assets/puppy2.jpg" class="card-img-top" alt="persoana">
+                <div class="card-body">
+                  <h5 class="card-title">April Langley</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#person-2">
+                    Read more
+                  </button>
+                </div>
+              </div>
+              <div class="modal fade" id="person-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">April Langley</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
+                      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-lg-5 col-md-5 mb-4">
+                <img src="assets/puppy3.jpg" class="card-img-top" alt="persoana">
+                <div class="card-body">
+                  <h5 class="card-title">John Smith</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#person-3">
+                    Read more
+                  </button>
+                </div>
+              </div>
+              <div class="modal fade" id="person-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">John Smith</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
+                      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="bg-dark text-white py-5">
+          <h2 class="text-center mb-5">About me</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 offset-lg-1 mb-4">
+                <img class="img-fluid" src="assets/logo2.JPG" alt="me">
+              </div>
+              <div class="col-lg-5 offset-lg-1">
+                <h5>Hello, I'm Rebecca!</h5>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Tip" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click here!</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <footer class="bg-light py-5">
+          <h2 class="text-center mb-5">Contact</h2>
+          <div class="container">
+            <address>
+              Rainbow Street 458 A <br>
+              Hawaii <br>
+              USA
+            </address>
+
+            <a href="tel:+40753880123">+40 753 880 123</a><br>
+            <a href="mailto:rebecca@gmail.com">rebecca@gmail.com</a>
+          </div> 
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script>
+          var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+          var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+         return new bootstrap.Popover(popoverTriggerEl)
+          })
+        </script>
+    </body>
+</html>
